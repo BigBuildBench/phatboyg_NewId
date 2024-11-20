@@ -1,0 +1,37 @@
+build_output/*
+build_artifacts/*
+doc/build/*
+
+*.suo
+*.user
+packages
+*.dotCover
+*.dotSettings
+
+bin
+obj
+_ReSharper*
+
+*.ReSharper
+*.cache
+*~
+*.swp
+*.bak
+*.orig
+
+.fake
+.idea
+
+# osx noise
+.DS_Store
+Gemfile.lock
+BenchmarkDotNet.Artifacts
+
+.vs
+
+# Cake
+tools/**
+!tools/packages.config
+
+# Artifacts
+artifacts/**
